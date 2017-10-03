@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>About Me</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--GOOGLE FONTS link: Lato, Font Face -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- NAVBAR -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+        <div class="container"> 
+
+          <div class="navbar-header">
+            <!--The Toggle Button menu aka "Hamburger menu/icon" structure-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+              
+        <!--I need to change the navbar-brand into an image instead, 
+          so the cursor won't hover over "JOSE JOEL ROMERO" -->
+          <a class="navbar-brand">JOSE JOEL ROMERO</a>
+          </div>  
+          <!-- Navigation positioning,responsiveness, and links to within the page -->
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>      
+          </div>
+
+        </div>
+    </div>
+    <!-- END OF NAVBAR -->
+
+    <!-- HEADER -->
+        <!-- -->
+     <div class="header"> 
+      <!--"header", will be our section "class" to refer in to styles sheet later -->
+      <div class="container">
+        <!--"container",will have all the header CONTENT -->
+        <div class="row">
+          <!--"row" will align our content along a single row within our container -->
+
+          <!--SECTION RESPONSIVE FOR LG(DESKTOP),MD(TABLETS),AND SM,XS SMALL SCREENS,
+            THIS WILL EFFECTIVELY SPREAD THIS DIV ACROSS THE PAGE AND HAVE ITS OWN ROW--> 
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <h1>About Me</h1>
+                  
+                <img class="img-responsive" id="jrpic" src="css/images/profilejjr.JPG" alt="image of Jose Joel Romero">
+                  <p>Hello!<br>
+                    My name is Jose Joel Romero,<br> 
+                    I am beginning my journey as a Full Stack Web Developer at the University of Utah Coding Bootcamp. Coding has changed my life. It has opened new realms of creativity, expanded my job opportunities, and I have made a lot of new developer friends that have enriched my life so much. 
+                    Feel free to check out my page and learn about my coding accomplishments, projects, and how to contact me.
+                  </p>
+                </div>  
+
+                <div class="container" id="sidebar">
+                  <!-- Column 2, with Sidebar Content Starts in this div-->
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h2>Connect with Me</h2>
+                      <!-- "list-inline" in Bootstrap is for aligning links/buttons next to each other without bullet points next to them -->
+                      <ul class="list-inline" id="connectlinks">
+                          <li><a href="https://github.com/JoseJWeb"><img src="css/images/gitpic.png" alt="GitHub"></a></li>
+                          <li><a href="https://www.linkedin.com/in/jose-joel-romero-49b47b14a/"><img src="css/images/linkedinpic.png" alt="LinkedIn"></a>
+                          <li><a href="https://stackoverflow.com/users/8530895/jose-joel-romero?tab=profile"><img src="css/images/stackoverflow.jpg" alt="Stack Overflow"></a></li>
+                      </ul>
+                   </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    <!-- END HEADER -->
+
+    <!--FOOTER -->
+    <footer>
+      <div class="footer navbar-fixed-bottom">
+        <p class="footer navbar-fixed-bottom">Jose Joel Romero &copy; 2017</p>
+      </div>
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+/*NAVIGATION BAR OVERRIDE STYLES START*/
+/*Note: the !important rule is needed to override any Bootstrap default styles. 
+It also informs the browser to override the Bootstrap default styles*/
+
+.navbar {
+	background-color: #242424;
+	border-bottom: 2px solid #b9#b9#b9;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.navbar a{
+	color: #cccccc !important;
+}
+
+.navbar a:hover{
+	color: #ffffff !important;
+	background-color: #646464 !important;
+}
+.navbar-header .navbar-brand{
+	color: white !important;
+	font-size: 1.5em;
+}
+
+/*HEADER*/
+
+.header {
+	padding: 50px;
+	width: 90%;
+	border-bottom: 2px solid #c9#c9#c9;
+}
+
+#jrpic{
+	padding:10px 10px 10px 10px !important;
+}
+
+h2 #connectlinks{
+	padding: 100px !important;
+}
+
+
+/*FOOTER*/
+footer .navbar-fixed-bottom{
+	padding-top: 10px !important;
+	background: #242424 !important;
+	text-align: center !important;
+	color:white !important;
+
+}
+
+/*Do We need additional Media Queries to make sure everything is perfect on every screen?*/
+
+/* Large desktops and laptops 
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops 
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops 
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets 
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller 
+@media (max-width: 480px) {
+
+}
+*/
+
